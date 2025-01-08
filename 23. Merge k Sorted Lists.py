@@ -29,7 +29,7 @@ class Solution(object):
         dummy = ListNode(0)
         current = dummy
 
-        # Extract the smallest element and add the next node from the same list
+        #Extract the smallest element and add the next node from the same list
         while min_heap:
             smallest = heapq.heappop(min_heap).node
             current.next = smallest
