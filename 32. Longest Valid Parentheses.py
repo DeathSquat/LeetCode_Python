@@ -18,7 +18,7 @@ class Solution(object):
                     # If the stack is empty, push the current index
                     stack.append(i)
                 else:
-                    # Calculate the length of the current valid substring
+                    # Calculate length of the current valid substring
                     max_length = max(max_length, i - stack[-1])
         
         return max_length
