@@ -8,7 +8,7 @@ class Solution(object):
         nums.sort()
         result = []
         
-        # Iterate through the array to fix the first element of the triplet
+        # Iterate through array to fix the first element of the triplet
         for i in range(len(nums)):
             # Skip duplicates for the first element
             if i > 0 and nums[i] == nums[i - 1]:
