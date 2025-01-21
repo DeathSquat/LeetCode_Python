@@ -12,7 +12,7 @@ class Solution(object):
         total = 0  # Initialize total to store the final result
         prev_value = 0  # Keep track of the previous numeral's value
 
-        # Iterate through the Roman numeral string in reverse order
+        #Iterate through the Roman numeral string in reverse order
         for char in reversed(s):
             current_value = roman_to_int[char]  # Get the integer value of the current character
 
