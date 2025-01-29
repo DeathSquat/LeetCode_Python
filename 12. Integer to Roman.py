@@ -4,7 +4,7 @@ class Solution(object):
         :type num: int
         :rtype: str
         """
-        # Define mappings f integer values to Roman numerals
+        # Define mappings of integer values to Roman numerals
         value_to_roman = [
             (1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'),
             (100, 'C'), (90, 'XC'), (50, 'L'), (40, 'XL'),
