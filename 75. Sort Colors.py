@@ -2,7 +2,7 @@ class Solution(object):
     def sortColors(self, nums):
         """
         :type nums: List[int]
-        :rtype: None Do not return anything, modify nums in-place instead.
+        :rtype: None Do not return anything, modify nums in-place instead
         """
         left, mid, right = 0, 0, len(nums) - 1
 
