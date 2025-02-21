@@ -3,7 +3,7 @@ class Solution(object):
         num_map = {}
     
         for i, num in enumerate(nums):
-            # Calculate the complement
+            # Calculate complement
             complement = target - num
         
             # Check if the complement exists in dictionary
