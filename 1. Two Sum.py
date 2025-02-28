@@ -6,7 +6,7 @@ class Solution(object):
             # Calculate complement
             complement = target - num
         
-            # Check if the complement exists in dictionary
+            # Check if complement exists in dictionary
             if complement in num_map:
                 return [num_map[complement], i]
         
