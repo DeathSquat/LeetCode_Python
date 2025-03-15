@@ -10,6 +10,6 @@ class Solution(object):
             if complement in num_map:
                 return [num_map[complement], i]
         
-            # Store the index of the current number
+            # Store the index of current number
             num_map[num] = i
         
