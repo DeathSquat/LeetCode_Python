@@ -4,7 +4,7 @@ class Solution(object):
     
         for i, num in enumerate(nums):
             # Calculate complement
-            complement = target - num
+            complement =  target - num
         
             # Check if the complement exists in the dictionary
             if complement in num_map:
