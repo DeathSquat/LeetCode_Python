@@ -1,9 +1,9 @@
 class Solution(object):
     def isMatch(self, s, p):
         """
-        :type s: str
-        :type p: str
-        :rtype: bool
+        :type s:str
+        :type p:str
+        :rtype:bool
         """
         m, n = len(s), len(p)
 
